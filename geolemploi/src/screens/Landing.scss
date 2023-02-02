@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.background {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 100vh;
+}
+
+.All {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#logo { 
+    height: 70vh;
+}
+
+#buttonEnter {
+    height: 25vh;
+}
+
+#title {
+    font-family: 'MedievalSharp';
+}
