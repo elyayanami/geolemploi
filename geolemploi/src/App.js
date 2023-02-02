@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Landing from './screens/Landing';
 import Home from './screens/Home';
-
+import Header from './components/Header';
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/header" element={<Header />} />
       </Routes>
     </div>
   );
