@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.backgroundContact {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 100%;
+}
+
+.encartGlobal {
+    font-family: 'MedievalSharp';
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+
+.encardContact {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    
+}
+
+.titreContact {
+    display: flex;
+    background-image: url('../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 126px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputContact {
+    display: flex;
+    background-image: url('../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 291px;
+    height: 108px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+.encartDescription {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDescription {
+    display: flex;
+    background-image: url('../assets/encartGrand.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1158px;
+    height: 549px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+.encardPigeon {
+    justify-content: end;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-right: 30px;
+    
+}
+
+.titrePigeon {
+    font-size: 10px;
+    display: flex;
+    background-image: url('../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 58px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
