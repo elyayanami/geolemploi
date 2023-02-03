@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.backgroundConnexion {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'MedievalSharp';
+    width: 100%;
+}
+
+.connexionGlobal {
+    
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+
+.encardConnexion {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    
+}
+
+.titreConnexion {
+    display: flex;
+    background-image: url('../../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 126px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.textareaConnexion {
+    display: flex;
+    background-image: url('../../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 126px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+    line-height: 126px;
+}
+
+.encardConnect {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-right: 100px;
+}
+
+.boutonConnexion{
+    font-size: 10px;
+    display: flex;
+    background-image: url('../../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 58px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-style: none;
+    font-family: inherit;
+    font-size: 15px;
+    &:hover{
+    transform: scale(1.1);
+    background-position: -1px;
+    }
+  &:active{
+    transform: scale(1);
+    background-position: 2px;
+    }
+}
+
+.linkProfil{
+    text-decoration: none;
+    font-family: inherit;
+    
+}
+
+.textareaConnexion::-webkit-input-placeholder {
+  font-family: 'MedievalSharp';
+}
+
+.textareaConnexion:-ms-input-placeholder {
+  font-family: 'MedievalSharp';
+}
+
+.textareaConnexion:-moz-placeholder {
+  font-family: 'MedievalSharp';
+}
+
+.textareaConnexion::-moz-placeholder {
+  font-family: 'MedievalSharp';
+}
