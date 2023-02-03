@@ -57,13 +57,13 @@ const Home = () => {
           </Link>
         </div>
         <div className="cardHome">
-          <Link className="paysan" to="/tiersetat">
+          <Link className="paysan" to="/classe/Tiers_Etat">
             <img className="paysan" src={paysan} alt="paysan" />
           </Link>
-          <Link className="clerge" to="/clerge">
+          <Link className="clerge" to="/classe/Clergé">
             <img className="clerge" src={clerge} alt="clerge" />
           </Link>
-          <Link className="noblesse" to="/noblesse">
+          <Link className="noblesse" to="/classe/Noblesse">
             <img className="noblesse" src={noblesse} alt="noblesse" />
           </Link>
         </div>
