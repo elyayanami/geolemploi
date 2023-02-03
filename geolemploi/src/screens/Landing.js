@@ -5,8 +5,7 @@ import buttonEnter from '../assets/buttonEnter.svg';
 import Header from '../components/Header';
 const Landing = () => {
     return (
-        <>
-        <div className="background">
+        <div className="backgroundLanding">
             <div className="All">
             <img id='logo' src={logo} alt='logo' />
             </div>
@@ -16,8 +15,6 @@ const Landing = () => {
             </Link>
             </div>
         </div>
-    
-        </>
     )
 }
 
