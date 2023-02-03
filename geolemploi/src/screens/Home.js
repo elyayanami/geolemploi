@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 import séparateur from "../assets/séparateur.svg";
-import bandeau_left1 from "../assets/bandeau_left1.svg";
-import bandeau_right1 from "../assets/bandeau_right1.svg";
+import bandeau_left1 from "../assets/bandeau_left.svg";
+import bandeau_right1 from "../assets/bandeau_right.svg";
 import trumpet from "../assets/trumpet.svg";
 import paysan from "../assets/paysan.svg";
 import clerge from "../assets/clerge.svg";
@@ -36,24 +36,20 @@ const Home = () => {
           <img id="separateur" src={séparateur} alt="séparateur"></img>
         </div>
         <div id="décorsHome">
+        <Link className="fav" to="/metiersfavoris">
           <img
-            className="image_bandeau"
+            className="bandeau_left"
             src={bandeau_left1}
             alt="bandeau_left"
           />
+          </Link>
           <img className="image" src={trumpet} alt="trumpet" />
+          <Link className="fav" to="/metierdegradants">
           <img
-            className="image_bandeau"
+            className="bandeau_right"
             src={bandeau_right1}
             alt="bandeau_right"
           />
-        </div>
-        <div className="link">
-          <Link className="fav" to="/metiersfavoris">
-            METIERS FAVORIS
-          </Link>
-          <Link className="fav" to="/metierdegradants">
-            METIERS DEGRADANTS
           </Link>
         </div>
         <div className="cardHome">
