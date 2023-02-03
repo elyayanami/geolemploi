@@ -12,7 +12,7 @@ function Header() {
             <nav>
                 <ul className="ulHeader">
                     <li className="liHeader"><Link className="liLink" to='/'>Home</Link></li>
-                    <li className="liHeader"><Link className="liLink" to='/metiers'>Metiers</Link></li>
+                    <li className="liHeader"><Link className="liLink" to='/home'>Metiers</Link></li>
                     <li className="liHeader"><Link className="liLink" to='/connexion'>Connexion</Link></li>
                     <li className="liHeader"><Link className="liLink" to='/contact'>Contact</Link></li>
                 </ul>

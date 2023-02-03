@@ -17,7 +17,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="/Profile" element={<Profil/>} /> 
         <Route path="/classe/:type" element={<ChickenClasse/>} />
-        <Route path="/header" element={<Header />} />
       </Routes>
       
     </div>
