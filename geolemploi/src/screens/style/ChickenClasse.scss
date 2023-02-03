@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.backgroundClasse {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+.bigGlobal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .globalClasse{
+        padding: 50px;
+        opacity: 0;
+  animation: fadeIn 2.5s ease-in-out forwards;
+
+    }
+    
+    .titreClasse{
+            position: absolute;
+            top:20vh;
+            left: 46vw;
+            color: #e9a631;
+            font-family: 'MedievalSharp';;
+            transform: scale(3);
+        }
+
+        @keyframes fadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+    
+    .imageGlobal{
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            animation: fadeIn 5s ease-in-out forwards;
+          
+            @keyframes fadeIn {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                  visibility: visible;
+                }
+              }
+
+
+
+        .imagePerso {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            filter: drop-shadow(0px 4px 78px #E59C46);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .parchment{
+            background-image: url("../../assets/bandeau_left1.svg");
+            background-size: 600px;
+            background-repeat: no-repeat;
+            padding: 60px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+
+            p{
+                color: #000000;
+                font-size: 55px;
+                position: relative;
+                top: -65px;
+                margin-bottom: 50px;
+                rotate: -8deg;
+                font-family: 'Macondo';
+            }
+
+            .descriptionFichePost{
+                font-size: 35px;
+                font-family: 'Macondo';
+                text-align: justify;
+            }
+        
+        }
+
+        .salaireFichePost {
+            font-size: 30px;
+            font-family: 'Macondo';
+            color: #f0a754;
+            margin-top: 40px;
+
+        }
+
+    }
+
+}

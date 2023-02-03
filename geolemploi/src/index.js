@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 
 import './index.scss';
+import './screens/style/ChickenClasse.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
