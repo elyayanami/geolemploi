@@ -4,10 +4,11 @@
     background: linear-gradient(#000000, #3A2B16);
     background-size: cover;
     height: 100%;
+    font-family: 'MedievalSharp';
 }
 
 .encartGlobal {
-    font-family: 'MedievalSharp';
+    
     display: flex;
     width: 100vw;
     height: 20vh;
@@ -73,6 +74,8 @@
     border-style: none;
     text-align: center;
     background-color: transparent;
+    line-height: 549px;
+    resize: none;
 }
 
 .encardPigeon {

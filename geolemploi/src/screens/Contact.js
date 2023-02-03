@@ -1,4 +1,4 @@
-
+import Header from "../components/Header";
 
 
 
@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <>
         <div className="backgroundContact">
+            <Header />
             <div className="encartGlobal" >
                 <div className="encardContact">
                     <h2 className="titreContact">CONTACT</h2>
@@ -24,7 +25,7 @@ const Contact = () => {
             </div>
             <div className="encartDescription">
                 <div>
-                    <input className="inputDescription" placeholder="Descritpion"></input>
+                    <textarea className="inputDescription" placeholder="Descritpion"></textarea>
                 </div>
                 <div className="encardPigeon">
                     <h2 className="titrePigeon">SEND PIGEON</h2>

@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '../assets/Logo.svg';
 import buttonEnter from '../assets/buttonEnter.svg';
-
+import Header from '../components/Header';
 const Landing = () => {
     return (
         <>
         <div className="background">
+            <Header/>
             <div className="All">
             <img id='logo' src={logo} alt='logo' />
             </div>
