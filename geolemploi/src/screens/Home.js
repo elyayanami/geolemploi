@@ -10,7 +10,6 @@ import trumpet from "../assets/trumpet.svg";
 import paysan from "../assets/paysan.svg";
 import clerge from "../assets/clerge.svg";
 import noblesse from "../assets/noblesse.svg";
-// import knights from "../assets/knights.mp4";
 
 const Home = () => {
   return (
@@ -29,7 +28,7 @@ const Home = () => {
         loop={true}
         muted={true}
       ></video> */}
-      <div className="background">
+      <div className="backgroundHome">
         <Header />
         <div className="titleHome">
           <h1 id="classe">CHOIX DE CLASSE</h1>
