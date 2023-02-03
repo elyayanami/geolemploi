@@ -5,6 +5,7 @@
     background-size: cover;
     height: 100%;
     font-family: 'MedievalSharp';
+    width: 100vw;
 }
 
 .encartGlobal {
@@ -83,7 +84,7 @@
     display: flex;
     width: 100vw;
     height: auto;
-    margin-right: 30px;
+    margin-right: 100px;
     
 }
 
@@ -98,4 +99,47 @@
     color: black;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    border-style: none;
+    font-family: inherit;
+    &:hover{
+    transform: scale(1.1);
+    background-position: -1px;
+    }
+  &:active{
+    transform: scale(1);
+    background-position: 2px;
+    }
 }
+
+.inputContact::-webkit-input-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputContact:-ms-input-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputContact:-moz-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputContact::-moz-placeholder {
+    font-family: 'MedievalSharp';
+  }
+
+  .inputDescription::-webkit-input-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputDescription:-ms-input-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputDescription:-moz-placeholder {
+    font-family: 'MedievalSharp';
+  }
+  
+  .inputDescription::-moz-placeholder {
+    font-family: 'MedievalSharp';
+  }

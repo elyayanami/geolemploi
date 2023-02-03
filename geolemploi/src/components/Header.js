@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
     <div className="headerClass">
-        <div className="logoHeader">
-            <img src={Logo} alt="geole emploi" />
-        </div>
+        <Link to="/">
+            <div className="logoHeader">
+                <img src={Logo} alt="geole emploi" />
+            </div>
+        </Link>
         <div className="ulLiHeader">
             <nav>
                 <ul className="ulHeader">

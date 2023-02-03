@@ -28,7 +28,7 @@ const Contact = () => {
                     <textarea className="inputDescription" placeholder="Descritpion"></textarea>
                 </div>
                 <div className="encardPigeon">
-                    <h2 className="titrePigeon">SEND PIGEON</h2>
+                    <button className="titrePigeon">SEND PIGEON</button>
                 </div>
             </div>
         </div>

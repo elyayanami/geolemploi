@@ -1,49 +1,54 @@
-.background {
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.backgroundProfile {
     background: linear-gradient(#000000, #3A2B16);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    font-family: 'MedievalSharp';
+    
 };
 
- .infoPerso{
-    color: white;
-    position: relative;
-    bottom: 380px;
-    left: 230px;
-    rotate: 9deg;
-    font-family: 'MedievalSharp';
+.globalProfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cercle{
-    position: relative;
-    right: 25%;
-    top: 120px;
-}
-
-.petitParchemin {
-    position: relative;
-    left: 260px;
-    bottom: 200px;
-}
-
-.grandParchemin {
-    width: 1300px;
-    position: relative;
-    left: 1%;
-    bottom: 245px;
-}
-
-.info {
-    position: relative;
-    bottom: 650px;
-    left: 0%;
-    font-size: 20px;
-    font-family: 'MedievalSharp';
-    font-weight:800;
+.encartProfil {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/encart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 225px;
     color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
 }
 
-@media screen and (max-width: 390px) { 
-    .background{
-        width: 100%;
-    }
-  }
+.infoPerso {
+    margin: 0;
+    
+}
+
+.descriptionProfil {
+    display: flex;
+    background-image: url('../assets/encartGrand.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1158px;
+    height: 549px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.paraProfil {
+    width: 70%;
+}
