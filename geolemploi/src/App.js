@@ -5,7 +5,7 @@ import Contact from './screens/Contact';
 import Profil from './screens/Profile';
 import ChickenClasse from './screens/ChickenClasse';
 import Connexion from './screens/Connexion';
-import Header from './components/Header';
+
 
 
 
@@ -18,7 +18,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="/Profile" element={<Profil/>} /> 
         <Route path="/classe/:type" element={<ChickenClasse/>} />
-        <Route path="/header" element={<Header />} />
         <Route path='/connexion' element={<Connexion />} />
       </Routes>
       
