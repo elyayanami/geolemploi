@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Header from "../components/Header";
+
 import séparateur from "../assets/séparateur.svg";
 import bandeau_left1 from "../assets/bandeau_left1.svg";
 import bandeau_right1 from "../assets/bandeau_right1.svg";
@@ -28,6 +30,7 @@ const Home = () => {
         muted={true}
       ></video> */}
       <div className="background">
+        <Header />
         <div className="titleHome">
           <h1 id="classe">CHOIX DE CLASSE</h1>
           <img id="separateur" src={séparateur} alt="séparateur"></img>

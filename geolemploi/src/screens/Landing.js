@@ -7,7 +7,6 @@ const Landing = () => {
     return (
         <>
         <div className="background">
-            <Header/>
             <div className="All">
             <img id='logo' src={logo} alt='logo' />
             </div>
