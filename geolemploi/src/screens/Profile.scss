@@ -1,0 +1,49 @@
+.background {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 100vh;
+};
+
+ .infoPerso{
+    color: white;
+    position: relative;
+    bottom: 380px;
+    left: 230px;
+    rotate: 9deg;
+    font-family: 'MedievalSharp';
+}
+
+.cercle{
+    position: relative;
+    right: 25%;
+    top: 120px;
+}
+
+.petitParchemin {
+    position: relative;
+    left: 260px;
+    bottom: 200px;
+}
+
+.grandParchemin {
+    width: 1300px;
+    position: relative;
+    left: 1%;
+    bottom: 245px;
+}
+
+.info {
+    position: relative;
+    bottom: 650px;
+    left: 0%;
+    font-size: 20px;
+    font-family: 'MedievalSharp';
+    font-weight:800;
+    color: black;
+}
+
+@media screen and (max-width: 390px) { 
+    .background{
+        width: 100%;
+    }
+  }

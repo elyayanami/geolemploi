@@ -5,8 +5,6 @@
 .headerClass {
     display:flex;
     justify-content: space-between;
-    padding: 30px;
-    
 }
 
 .logoHeader {
@@ -22,6 +20,7 @@
 .ulHeader {
     display: flex;
     list-style-type: none;
+    margin-top: -50px;
 }
 
 .liHeader {
