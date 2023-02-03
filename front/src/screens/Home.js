@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 import séparateur from "../assets/séparateur.svg";
 import bandeau_left from "../assets/bandeau_left.svg";
-import bandeau_right from "../assets/bandeau_right1.png";
+import bandeau_right from "../assets/bandeau_right.png";
 import trumpet from "../assets/trumpet.svg";
 import paysan from "../assets/paysan.svg";
 import clerge from "../assets/clerge.svg";
@@ -19,6 +19,7 @@ const Home = () => {
   const handleClick = () => {
     audioRef.current.play();
   }
+
 
   return (
     <>

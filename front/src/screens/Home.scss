@@ -34,22 +34,23 @@
         .bandeau_left {
             display: flex;
             margin-top: 60px;
-            padding-left: 180px;
+            padding-left: 165px;
             filter: drop-shadow(0 5px 0.75rem rgba(255, 255, 255, 0.212));
         }
 
         .bandeau_right {
             display: flex;
-            margin-top: -80px;
-            padding-right: 110px;
+            margin-top: 45px;
+            padding-right: 130px;
             filter: drop-shadow(0 5px 0.75rem rgba(255, 255, 255, 0.212));
         }
 
         .image {
             display: flex;
             width: 150px;
-            margin-left: 55px;
+            margin-left: 50px;
             padding : 50px;
+            padding-right : 90px;
         }
 }
 
