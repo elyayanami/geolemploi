@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.background {
+    background: linear-gradient(#000000, #3A2B16);
+    background-size: cover;
+    height: 115vh;
+}
+
+.titleHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#classe {
+    font-family: 'Macondo';
+    font-weight: 300;
+    font-size: 50px;
+    color : (#E59C46);
+    margin: 0px;
+}
+
+#separateur {
+    margin-top: 0;
+    height: 5vh;
+}
+
+
+#décorsHome {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position:fixed;
+    
+        .image {
+        padding : 50px;
+        }
+        
+        .image_bandeau {
+            filter: drop-shadow(0 5px 0.75rem rgba(255, 255, 255, 0.212));
+        }
+}
+
+.link{
+    position : static; 
+    z-index:2;
+    display: flex;
+    justify-content: space-around;
+    padding: 92px;
+    font-family: 'Macondo';
+    
+
+    .fav{
+        padding: 50px;
+        rotate: 7deg;
+        margin-top:10px;
+        margin-left:2vw;
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+
+    .fav:nth-child(1){
+        rotate: -8deg;
+        margin-top:14px;
+        margin-right:-320px;
+    }
+}
+
+.cardHome {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: -50px;
+    transform: translatey(0px);
+    animation: float 8s ease-in-out infinite;
+    filter: drop-shadow(-2px 2px 0.5rem rgba(255, 255, 255, 0.162));
+
+
+    @keyframes float {
+        0%{transform: translateY(-0.5%);transition: ease 0.8s;}
+        50%{transform: translateY(0.5%);transition: ease 0.8s;}
+        100%{transform: translateY(-0.5%);transition: ease 0.8s;}
+    }
+}

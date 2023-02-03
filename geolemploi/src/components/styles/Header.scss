@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+.headerClass {
+    display:flex;
+    justify-content: space-between;
+}
+
+.logoHeader {
+    display: flex;
+    height: 15vh;
+}
+
+.ulLiHeader {
+    display: flex;
+    align-items: center;
+}
+
+.ulHeader {
+    display: flex;
+    list-style-type: none;
+    margin-top: -50px;
+}
+
+.liHeader {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #e59c46;
+    font-family:'MedievalSharp', cursive;
+    font-size: 24px;
+}
+
+.liLink {
+    &:visited{
+        background-color: transparent;
+        color: inherit;
+        text-decoration: none;  
+    }
+}
+
+
+
